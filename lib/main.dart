@@ -30,13 +30,13 @@ class MyHomePage extends StatelessWidget {
             headingBar(),
             // ScrollView
             Transform.translate(
-              offset: Offset(0, -65),
+              offset: Offset(0, -60),
               child: Column(
                 children: <Widget>[
                   // Horizontal Scrolling
                   horizontalScroll(),
                   SizedBox(
-                    height: 20,
+                    height: 17,
                   ),
                   sectionTitle('My Goals', '+ADD A GOAL'),
                   goal('Buy Dream Bike', '65% Completed',
