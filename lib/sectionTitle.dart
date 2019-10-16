@@ -12,13 +12,13 @@ Widget sectionTitle(t1, t2) {
               t1,
               style: TextStyle(
                   color: Color(0xFF042c5c),
-                  fontSize: 16,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
             Icon(
               Icons.keyboard_arrow_right,
               color: Colors.black,
-              size: 25.0,
+              size: 20.0,
             ),
           ],
         ),
@@ -26,7 +26,7 @@ Widget sectionTitle(t1, t2) {
           children: <Widget>[
             Text(
               t2,
-              style: TextStyle(color: Color(0xFF777777), fontSize: 15),
+              style: TextStyle(color: Color(0xFF777777), fontSize: 20),
             )
           ],
         )
