@@ -17,28 +17,28 @@ Widget goal(text1,text2,text3,percent) {
           ],
         ),
         SizedBox(
-          height: 7,
+          height: 10,
         ),
         Row(
           children: <Widget>[
             Expanded(
               flex: percent,
               child: Container(
-                height: 4,
+                height: 5,
                 decoration: BoxDecoration(color: Color(0xFF0047cc)),
               ),
             ),
             Expanded(
               flex: 100-percent,
               child: Container(
-                height: 4,
+                height:5,
                 decoration: BoxDecoration(color: Color(0xFFa6e8ff)),
               ),
             )
           ],
         ),
         SizedBox(
-          height: 7,
+          height: 10,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
