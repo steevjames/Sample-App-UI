@@ -5,6 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+This is a sample UI for an expense tracking application.
 
 A few resources to get you started if this is your first Flutter project:
 
